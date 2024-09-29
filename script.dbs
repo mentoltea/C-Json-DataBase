@@ -1,0 +1,7 @@
+LOAD db.json ~
+ADD STRING newkey ThisIsScript ~
+GET FLOAT k ~
+CHANGE FLOAT k 2.345678 ~
+GET FLOAT k ~
+SAVE new.json ~
+UNLOAD ~
